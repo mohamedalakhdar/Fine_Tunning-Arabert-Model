@@ -14,7 +14,7 @@ onnx_model = ORTModelForSequenceClassification.from_pretrained(
 
 )
 
-onnx_model.save_pretrained(model_tokenizer_path)
+onnx_model.save_pretrained(model_tokenizer_path) 
 
 
 
